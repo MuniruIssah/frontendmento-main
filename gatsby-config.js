@@ -6,5 +6,13 @@ module.exports = {
     title: `frontendmento-main`,
     siteUrl: `https://frontendmento-main.vercel.app/`,
   },
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: [
+      {
+        resolve: 'gatsby-plugin-manifest',
+        options: {
+          "icon": "src/images/icon.png"
+        },
+      },
+    'gatsby-plugin-postcss'
+  ],
 }

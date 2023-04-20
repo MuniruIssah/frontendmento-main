@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from "../../components/Layout";
+import {pages} from "../../utils";
+import Card from "../../components/Card";
 
 const Index = () => {
     return (
@@ -7,8 +9,12 @@ const Index = () => {
             <div className={'w-full max-w-screen-lg mx-auto  text-left flex flex-col space-y-10'}>
                 <span className={'text-4xl'}>Pages</span>
                 <div className={'grid gap-5'} style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))"}}>
-                    {new Array(5).fill(0).map((item,index)=><div className={'h-52 bg-gray-400 rounded'} key={index}></div>)}
-
+                    {/**/}
+                    {pages.length>0?
+                        <>{pages.map((item,index)=><Card key={index} {...item}/>)}</>:
+                    <>
+                        <span className={'text-xl'}>Sorry, There are no pages here yet.</span>
+                    </>}
                 </div>
 
             </div>
