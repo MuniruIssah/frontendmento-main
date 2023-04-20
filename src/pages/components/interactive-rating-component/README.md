@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/MuniruIssah/product-preview-card)
-- Live Site URL: [Live Site](https://product-preview-card-git-main-muniruissah.vercel.app/)
+- Solution URL: [GitHub Repository](https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/interactive-rating-component)
+- Live Site URL: [Live Site](https://frontendmento-main.vercel.app/components/interactive-rating-component/)
 
 ## My process
 

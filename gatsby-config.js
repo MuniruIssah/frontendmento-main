@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `frontendmento-main`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://frontendmento-main.vercel.app/`,
   },
   plugins: ['gatsby-plugin-postcss'],
 }
