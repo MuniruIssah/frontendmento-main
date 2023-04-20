@@ -6,7 +6,7 @@ import SubmitButton from "./submitButton";
 const RatingsForm = ({activeState,handleChange,handleSubmit}) => {
     return (
         <div className={'flex flex-col space-y-7 items-start'}>
-            <div className={'h-[45px] w-[45px] rounded-full bg-[#7C8798]/10 w-auto flex justify-center items-center '}>
+            <div className={'h-[45px] w-[45px] sm:h-12 sm:w-12 rounded-full bg-[#7C8798]/10 flex justify-center items-center '}>
                 <img src={star} className={'object-fit w-3 md:w-auto'} alt={'star'}/>
             </div>
             <div className={'flex flex-col space-y-3'}>
