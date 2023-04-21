@@ -8,3 +8,7 @@ import "@fontsource/overpass/700.css"
 import "@fontsource/outfit/300.css"
 import "@fontsource/outfit"
 import "@fontsource/outfit/600.css"
+
+import "@fontsource/red-hat-display/500.css"
+import "@fontsource/red-hat-display/700.css"
+import "@fontsource/red-hat-display/900.css"

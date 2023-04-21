@@ -19,6 +19,7 @@
     "@fontsource/lexend-deca": "^4.5.14",
     "@fontsource/outfit": "^4.5.11",
     "@fontsource/overpass": "^4.5.11",
+    "@fontsource/red-hat-display": "^4.5.12",
     "gatsby": "^5.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
     "react": "^18.2.0",
