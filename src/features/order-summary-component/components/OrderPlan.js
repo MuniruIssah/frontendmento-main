@@ -3,7 +3,7 @@ import music from '../../../features/order-summary-component/images/icon-music.s
 
 const OrderPlan = () => {
     return (
-        <div className={'w-full flex items-center space-x-3 p-3 rounded-xl bg-[#F5F7FF]'}>
+        <div className={'w-full flex items-center space-x-3 p-5 rounded-xl bg-[#F5F7FF]'}>
             {/*<div/>*/}
             <img src={music} className={'object-fit'} alt={'Music'} />
             <div className={'flex-1 flex justify-between items-center'}>
