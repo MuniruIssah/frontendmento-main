@@ -15,7 +15,6 @@ const NftCardMain = () => {
                     <img src={view} className={'object-fit'} alt={'view'}/>
                 </div>
             </div>
-            {/*<div className="h-52 bg-cover bg-no-repeat bg-center rounded-2xl" style={{backgroundImage:`url(${equilibrium}`}}></div>*/}
             <h4 className={'text-white text-xl hover:text-[#00FFF7] cursor-pointer'}>Equilibrium #3438</h4>
             <p className={'text-[#8BACDA] text-[18px] font-light'}>Our Equilibrium collection promotes balance and calm.</p>
             <div className={'divide-y divide-[#2F415B]'}>
