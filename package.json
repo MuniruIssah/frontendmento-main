@@ -17,6 +17,7 @@
   "dependencies": {
     "@fontsource/crete-round": "^4.5.9",
     "@fontsource/lexend-deca": "^4.5.14",
+    "@fontsource/outfit": "^4.5.11",
     "@fontsource/overpass": "^4.5.11",
     "gatsby": "^5.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
