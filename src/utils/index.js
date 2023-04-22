@@ -1,6 +1,7 @@
 import interactiveRatingComponent from '../images/designs/irc-desktop-preview.jpg'
 import nftPreviewCardComponent from '../images/designs/nft-design.png'
 import orderSummaryComponent from '../images/designs/order-summary-preview.jpg'
+import resultSummaryComponent from '../images/designs/results-summary-preview.png'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -22,6 +23,13 @@ export const components=[
         description:"This is a solution to the Order summary card challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/order-summary-component',
         image:orderSummaryComponent
+    },
+    {
+        title:'Results Summary Component',
+        liveUrl:'results-summary-component',
+        description:"This is a solution to the Results summary card challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/results-summary-component',
+        image:resultSummaryComponent
     }
 
 ]

@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@fontsource/crete-round": "^4.5.9",
+    "@fontsource/hanken-grotesk": "^4.5.2",
     "@fontsource/lexend-deca": "^4.5.14",
     "@fontsource/outfit": "^4.5.11",
     "@fontsource/overpass": "^4.5.11",

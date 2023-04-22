@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.results_card_wrapper{
+    @apply max-w-[750px] h-[100vh] overflow-auto md:h-auto md:min-h-[60vh] md:rounded-3xl shadow-xl shadow-blue-600/10 grid md:grid-cols-2 bg-white;
+}
+
+.results_col_one{
+    @apply text-white bg-gradient-to-b from-[#7857FF] to-[#2E2BE9] md:rounded-t-3xl  rounded-b-3xl text-center flex flex-col items-center justify-between p-8 space-y-5  md:p-10;
+}
+
+.results_col_two{
+    @apply py-5 px-7 md:p-10 flex flex-col justify-between items-start space-y-6 md:space-y-0;
+}
+
+.results_continue{
+    @apply w-full rounded-full p-4 text-lg text-white bg-[#303B5A] hover:bg-gradient-to-b hover:from-[#7857FF] hover:to-[#2E2BE9] transition-all ease-in-out;
+}
+
+.results_circle{
+    @apply flex flex-col h-32 w-32 md:h-52 md:w-52 rounded-full bg-gradient-to-b from-[#4E21CA] to-[#2421CA]/0 flex flex-col justify-center items-center space-y-2 md:space-y-3;
+}
+.results_summary_list{
+   @apply flex flex-col space-y-3 w-full;
+}
+
+.results_main_title{
+    @apply text-lg md:text-2xl opacity-75;
+}
+
+.results_main_number{
+    @apply text-5xl md:text-7xl font-bold;
+}
+
+.results_sub_number{
+    @apply opacity-40 text-sm md:text-lg;
+}
+
+.results_status{ @apply text-2xl md:text-3xl font-medium}
+.results_sub_status{ @apply w-5/6 opacity-60}
+.results_summary_title{@apply text-lg md:text-2xl}
+
+
+
+.results_summary_item_wrapper{
+    @apply w-full flex items-center justify-between p-4 rounded-lg
+}
+
+.results_summary_item_title{
+    @apply font-medium flex items-center space-x-2
+}
+
+.results_summary_item_value{
+    @apply font-bold flex items-center space-x-2
+}

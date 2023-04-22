@@ -220,3 +220,11 @@ svg {
 .oscomp{
     font-family: "Red Hat Display", sans-serif;
 }
+
+
+/*  RESULTS SUMMARY COMPONENT*/
+.rscomp{
+    font-family: "Hanken Grotesk", sans-serif;
+    @apply w-[100vw] h-[100vh]  grid place-items-center;
+
+}
