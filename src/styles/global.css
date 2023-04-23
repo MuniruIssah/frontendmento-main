@@ -228,3 +228,8 @@ svg {
     @apply w-[100vw] h-[100vh]  grid place-items-center;
 
 }
+
+/*ADVICE GENERATOR*/
+.agcomponent{
+    font-family: "Manrope",sans-serif;
+}

@@ -17,3 +17,5 @@ import "@fontsource/red-hat-display/900.css"
 import "@fontsource/hanken-grotesk/500.css"
 import "@fontsource/hanken-grotesk/700.css"
 import "@fontsource/hanken-grotesk/800.css"
+
+import "@fontsource/manrope/800.css"
