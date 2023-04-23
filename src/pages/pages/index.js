@@ -8,7 +8,7 @@ const Index = () => {
         <Layout>
             <div className={'w-full max-w-screen-lg mx-auto  text-left flex flex-col space-y-10'}>
                 <span className={'text-4xl'}>Pages</span>
-                <div className={'grid gap-5'} style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))"}}>
+                <div className={'grid gap-5'} style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(300px,1fr))"}}>
                     {/**/}
                     {pages.length>0?
                         <>{pages.map((item,index)=><Card key={index} {...item}/>)}</>:
