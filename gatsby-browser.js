@@ -19,3 +19,8 @@ import "@fontsource/hanken-grotesk/700.css"
 import "@fontsource/hanken-grotesk/800.css"
 
 import "@fontsource/manrope/800.css"
+
+import "@fontsource/plus-jakarta-sans/500.css"
+import "@fontsource/plus-jakarta-sans/800.css"
+
+

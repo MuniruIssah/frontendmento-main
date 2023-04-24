@@ -3,6 +3,7 @@ import nftPreviewCardComponent from '../images/designs/nft-design.png'
 import orderSummaryComponent from '../images/designs/order-summary-preview.jpg'
 import resultSummaryComponent from '../images/designs/results-summary-preview.png'
 import adviceGenerator from '../images/designs/advicegenerator.png'
+import notificationsPage from '../images/designs/notifications-page.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -43,5 +44,12 @@ export const pages=[
         description:"This is a solution to the Advice Generator App challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/advice-generator',
         image:adviceGenerator
+    },
+    {
+        title:'Notifications Page',
+        liveUrl:'notifications-page',
+        description:"This is a solution to the Notifications Page challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/notifications-page',
+        image:notificationsPage
     }
 ]
