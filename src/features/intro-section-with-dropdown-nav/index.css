@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply rounded-xl
+}
+.primary {
+    @apply bg-[#141414] text-white  w-auto px-10 py-4 border border-[#141414] hover:bg-transparent  hover:text-[#141414]
+}
+
+.secondary{
+    @apply border border-[#696969] text-[#696969] py-2.5 px-5  hover:border-[#141414] hover:text-[#141414]
+}
+.ternary{
+    @apply text-[#696969] hover:text-[#141414]
+}
+
+.hero_bg{
+    @apply flex-1 w-full min-h-[30vh] h-full bg-contain bg-center bg-no-repeat;
+    background-image: url("./images/image-hero-desktop.png");
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+@media screen  and ( max-width: 650px){
+    .hero_bg{
+        background-image: url("./images/image-hero-mobile.png");
+    }
+}

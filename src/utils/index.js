@@ -4,6 +4,7 @@ import orderSummaryComponent from '../images/designs/order-summary-preview.jpg'
 import resultSummaryComponent from '../images/designs/results-summary-preview.png'
 import adviceGenerator from '../images/designs/advicegenerator.png'
 import notificationsPage from '../images/designs/notifications-page.jpg'
+import introSectionWithDropdownNav from '../images/designs/introSectionWithDropdownNav.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -51,5 +52,12 @@ export const pages=[
         description:"This is a solution to the Notifications Page challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/notifications-page',
         image:notificationsPage
-    }
+    },
+    {
+        title:'Intro Section with Dropdown Navigation',
+        liveUrl:'intro-section-with-dropdown-nav',
+        description:"This is a solution to the Intro section with dropdown navigation page challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/intro-section-with-dropdown-nav',
+        image:introSectionWithDropdownNav
+    },
 ]

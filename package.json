@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@fontsource/crete-round": "^4.5.9",
+    "@fontsource/epilogue": "^4.5.11",
     "@fontsource/hanken-grotesk": "^4.5.2",
     "@fontsource/lexend-deca": "^4.5.14",
     "@fontsource/manrope": "^4.5.13",
@@ -28,6 +29,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-modal": "^3.16.1",
     "react-spinners": "^0.13.8"
   },
   "devDependencies": {
