@@ -18,6 +18,7 @@
     "@fontsource/crete-round": "^4.5.9",
     "@fontsource/epilogue": "^4.5.11",
     "@fontsource/hanken-grotesk": "^4.5.2",
+    "@fontsource/josefin-sans": "^4.5.12",
     "@fontsource/lexend-deca": "^4.5.14",
     "@fontsource/manrope": "^4.5.13",
     "@fontsource/outfit": "^4.5.11",
@@ -26,11 +27,15 @@
     "@fontsource/red-hat-display": "^4.5.12",
     "gatsby": "^5.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
+    "jotai": "^2.0.4",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-modal": "^3.16.1",
-    "react-spinners": "^0.13.8"
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.2",
+    "uniqid": "^5.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

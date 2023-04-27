@@ -243,3 +243,10 @@ svg {
 .introswdn{
     font-family: "Epilogue", sans-serif;
 }
+
+/*TODO APP*/
+.todo-app{
+    font-family: "Josefin Sans", sans-serif;
+    @apply w-[100vw] h-[100vh] overflow-auto dark:bg-[#161722] bg-[#FAFAFA] bg-no-repeat bg-[url('../features/todo-app/images/bg-desktop-light.jpg')] dark:bg-[url('../features/todo-app/images/bg-desktop-dark.jpg')];
+
+}
