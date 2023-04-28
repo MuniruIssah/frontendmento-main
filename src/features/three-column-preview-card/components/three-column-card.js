@@ -5,7 +5,7 @@ const ThreeColumnCard = ({title,description,icon,theme,textTheme}) => {
     return (
         <div className={`p-10 flex flex-col items-start min-h-[50vh]  sm:min-h-[60vh] justify-between ${theme}`}>
             <div className={'flex flex-col items-start space-y-6 '}>
-                    <img src={icon} alt={title} className="h-10 object-contain"/>
+                    <img src={icon} alt={""} className="h-10 object-contain"/>
                 <h1 className="headding text-[#F2F2F2]">{title}</h1>
                 <p className="text-white/75 text-[15px]">{description}</p>
 
