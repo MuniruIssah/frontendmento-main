@@ -6,6 +6,7 @@ import adviceGenerator from '../images/designs/advicegenerator.png'
 import notificationsPage from '../images/designs/notifications-page.jpg'
 import introSectionWithDropdownNav from '../images/designs/introSectionWithDropdownNav.jpg'
 import todoApp from '../images/designs/todoApp.jpg'
+import threeColumnPreviewCard from '../images/designs/threeColumnPreviewCard.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -34,6 +35,13 @@ export const components=[
         description:"This is a solution to the Results summary card challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/results-summary-component',
         image:resultSummaryComponent
+    },
+    {
+        title:'3 Column Preview Card',
+        liveUrl:'three-column-preview-card',
+        description:"This is a solution to the Results summary card challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/three-column-preview-card',
+        image:threeColumnPreviewCard
     }
 
 ]

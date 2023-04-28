@@ -30,4 +30,4 @@ import "@fontsource/epilogue/700.css"
 import "@fontsource/josefin-sans/400.css"
 import "@fontsource/josefin-sans/700.css"
 
-
+import "@fontsource/big-shoulders-display/700.css"

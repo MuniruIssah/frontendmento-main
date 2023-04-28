@@ -250,3 +250,8 @@ svg {
     @apply w-[100vw] h-[100vh] overflow-auto dark:bg-[#161722] bg-[#FAFAFA] bg-no-repeat bg-[url('../features/todo-app/images/bg-desktop-light.jpg')] dark:bg-[url('../features/todo-app/images/bg-desktop-dark.jpg')];
 
 }
+
+/*3 COLUMN PREVIEW CARD*/
+.threeColumnPreviewCard{
+    font-family: 'Lexend Deca',sans-serif;
+}

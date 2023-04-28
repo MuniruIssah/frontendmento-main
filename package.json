@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/big-shoulders-display": "^4.5.11",
     "@fontsource/crete-round": "^4.5.9",
     "@fontsource/epilogue": "^4.5.11",
     "@fontsource/hanken-grotesk": "^4.5.2",
