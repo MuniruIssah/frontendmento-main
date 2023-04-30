@@ -1,0 +1,10 @@
+.timeTrackingDashboardInner{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+}
+
+@media screen and (max-width:550px ) {
+    .timeTrackingDashboardInner{
+        grid-template-columns: 1fr;
+    }
+}

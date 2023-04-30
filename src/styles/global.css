@@ -255,3 +255,16 @@ svg {
 .threeColumnPreviewCard{
     font-family: 'Lexend Deca',sans-serif;
 }
+
+/*PROFILE CARD COMPONENT*/
+.profileCardComponent{
+    font-family: "Kumbh Sans", sans-serif;
+    background-image:  url("../features/profile-card-component/images/bg-pattern-top.svg"),url("../features/profile-card-component/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat,no-repeat;
+   background-position: right 40vw bottom 50vh, left 40vw top 50vh
+}
+
+/*TIME TRACKING DASHBOARD*/
+.timeTrackingDashboard{
+    font-family: "Rubik", sans-serif;
+}

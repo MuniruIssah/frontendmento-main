@@ -31,3 +31,10 @@ import "@fontsource/josefin-sans/400.css"
 import "@fontsource/josefin-sans/700.css"
 
 import "@fontsource/big-shoulders-display/700.css"
+
+import "@fontsource/kumbh-sans"
+import "@fontsource/kumbh-sans/700.css"
+
+import "@fontsource/rubik/300.css"
+import "@fontsource/rubik/400.css"
+import "@fontsource/rubik/500.css"

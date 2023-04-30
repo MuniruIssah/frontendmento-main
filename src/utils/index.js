@@ -7,6 +7,8 @@ import notificationsPage from '../images/designs/notifications-page.jpg'
 import introSectionWithDropdownNav from '../images/designs/introSectionWithDropdownNav.jpg'
 import todoApp from '../images/designs/todoApp.jpg'
 import threeColumnPreviewCard from '../images/designs/threeColumnPreviewCard.jpg'
+import profileCardComponent from '../images/designs/profileCardComponent.png'
+import timeTrackingDashboard from '../images/designs/timeTrackingDashboard.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -42,7 +44,14 @@ export const components=[
         description:"This is a solution to the Results summary card challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/three-column-preview-card',
         image:threeColumnPreviewCard
-    }
+    },
+    {
+        title:'TimeTrackingProfile Card Component',
+        liveUrl:'profile-card-component',
+        description:"This is a solution to the TimeTrackingProfile Card Component challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/profile-card-component',
+        image:profileCardComponent
+    },
 
 ]
 
@@ -75,5 +84,12 @@ export const pages=[
         description:"This is a solution to the Todo App challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/todo-app',
         image:todoApp
+    },
+    {
+        title:'Time Tracking Dashboard',
+        liveUrl:'time-tracking-dashboard',
+        description:"This is a solution to the Time Tracking Dashboard challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/time-tracking-dashboard',
+        image:timeTrackingDashboard
     },
 ]
