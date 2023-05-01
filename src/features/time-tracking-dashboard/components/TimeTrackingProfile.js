@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import jeremy from '../images/image-jeremy.png'
-const TimeTrackingProfile = () => {
-    const [currentFilter,setCurrentFilter]=useState("Daily")
+const TimeTrackingProfile = ({setCurrentFilter,currentFilter}) => {
+
     const handleChangeFilter=(filter)=>setCurrentFilter(filter);
     return (
         <div className={'row-span-2 bg-[#1C1F4A] w-full h-full flex flex-col rounded-2xl'}>
@@ -14,7 +14,7 @@ const TimeTrackingProfile = () => {
             </div>
             <div className="w-full  flex-1 flex justify-center sm:flex-col sm:items-start sm:space-y-3 p-5">
                 {
-                    dummyFilters.map((item,index)=><ProfileFilter changeFilter={()=>handleChangeFilter(item)} currentFilter={currentFilter} title={item} key={index} />)
+                    dummyFilters.map((item,index)=><ProfileFilter changeFilter={()=>handleChangeFilter(item.value)} currentFilter={currentFilter} value={item.value} title={item.title} key={index} />)
                 }
             </div>
         </div>
@@ -22,9 +22,9 @@ const TimeTrackingProfile = () => {
 };
 
 export default TimeTrackingProfile;
-const dummyFilters=['Daily','Weekly','Monthly']
-const ProfileFilter=({title,currentFilter,changeFilter})=>{
-    const isActive=currentFilter===title
+const dummyFilters=[{title:'Daily',value:'daily'}, {title:'Weekly',value:'weekly'}, {title:'Monthly',value:'monthly'}]
+const ProfileFilter=({title,value,currentFilter,changeFilter})=>{
+    const isActive=currentFilter===value
     return(
         <div onClick={changeFilter} className={`w-full cursor-pointer  text-center sm:text-left hover:text-white ${isActive?'text-white':'text-[#6F76C8]'}`}>{title}</div>
     );

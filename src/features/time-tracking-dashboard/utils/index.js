@@ -9,43 +9,116 @@ export const dummyTrackingStats=[
     {
         title:'Work',
         itemImage:work,
-        currentValue:32,
-        lastWeekValue:36,
+        timeframes: {
+            "daily": {
+                "current": 5,
+                "previous": 7
+            },
+            "weekly": {
+                "current": 32,
+                "previous": 36
+            },
+            "monthly": {
+                "current": 103,
+                "previous": 128
+            }
+        },
         extraClasses:'bg-[#FF8C66]'
     },
     {
         title:'Play',
         itemImage:play,
-        currentValue:10,
-        lastWeekValue:8,
-        extraClasses:'bg-[#56C2E6]'
+        extraClasses:'bg-[#56C2E6]',
+        timeframes: {
+            "daily": {
+                "current": 1,
+                "previous": 2
+            },
+            "weekly": {
+                "current": 10,
+                "previous": 8
+            },
+            "monthly": {
+                "current": 23,
+                "previous": 29
+            }
+        }
     },
     {
         title:'Study',
         itemImage:study,
-        currentValue:4,
-        lastWeekValue:7,
-        extraClasses:'bg-[#FF5C7C]'
+        extraClasses:'bg-[#FF5C7C]',
+        timeframes:{
+            "daily": {
+                "current": 0,
+                "previous": 1
+            },
+            "weekly": {
+                "current": 4,
+                "previous": 7
+            },
+            "monthly": {
+                "current": 13,
+                "previous": 19
+            }
+        }
     },
     {
         title:'Exercise',
         itemImage:exercise,
-        currentValue:4,
-        lastWeekValue:5,
-        extraClasses:'bg-[#4ACF81]'
+        extraClasses:'bg-[#4ACF81]',
+        timeframes: {
+            "daily": {
+                "current": 1,
+                "previous": 1
+            },
+            "weekly": {
+                "current": 4,
+                "previous": 5
+            },
+            "monthly": {
+                "current": 11,
+                "previous": 18
+            }
+        }
     },
     {
         title:'Social',
         itemImage:social,
-        currentValue:5,
-        lastWeekValue:10,
+        timeframes: {
+            "daily": {
+                "current": 1,
+                "previous": 3
+            },
+            "weekly": {
+                "current": 5,
+                "previous": 10
+            },
+            "monthly": {
+                "current": 21,
+                "previous": 23
+            }
+        },
         extraClasses:'bg-[#7536D3]'
     },
     {
         title:'Self Care',
         itemImage:selfCare,
-        currentValue:2,
-        lastWeekValue:2,
-        extraClasses:'bg-[#F1C65B]'
+        extraClasses:'bg-[#F1C65B]',
+        timeframes: {
+            "daily": {
+                "current": 0,
+                "previous": 1
+            },
+            "weekly": {
+                "current": 2,
+                "previous": 2
+            },
+            "monthly": {
+                "current": 7,
+                "previous": 11
+            }
+        }
     },
 ]
+
