@@ -46,9 +46,9 @@ export const components=[
         image:threeColumnPreviewCard
     },
     {
-        title:'TimeTrackingProfile Card Component',
+        title:'Profile Card Component',
         liveUrl:'profile-card-component',
-        description:"This is a solution to the TimeTrackingProfile Card Component challenge on Frontend Mentor.",
+        description:"This is a solution to the Profile Card Component challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/profile-card-component',
         image:profileCardComponent
     },
