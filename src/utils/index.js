@@ -9,6 +9,7 @@ import todoApp from '../images/designs/todoApp.jpg'
 import threeColumnPreviewCard from '../images/designs/threeColumnPreviewCard.jpg'
 import profileCardComponent from '../images/designs/profileCardComponent.png'
 import timeTrackingDashboard from '../images/designs/timeTrackingDashboard.jpg'
+import faqAccordionCard from '../images/designs/faqAccordionCard.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -51,6 +52,13 @@ export const components=[
         description:"This is a solution to the Profile Card Component challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/profile-card-component',
         image:profileCardComponent
+    },
+    {
+        title:'FAQ Accordion Card',
+        liveUrl:'faq-accordion-card',
+        description:"This is a solution to the FAQ Accordion Card challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/faq-accordion-card',
+        image:faqAccordionCard
     },
 
 ]

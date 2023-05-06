@@ -1,0 +1,16 @@
+.faqBackground{
+    background-image:url("./images/illustration-woman-online-desktop.svg"),url("./images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-size:contain, 200%;
+    background-position: right 6vw center, right 6vw bottom -15vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .faqBackground{
+        background-image:url("./images/bg-pattern-mobile.svg");
+        background-repeat: no-repeat;
+        background-size:75%;
+        background-position:top -1vh center;
+
+    }
+}
