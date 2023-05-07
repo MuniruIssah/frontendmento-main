@@ -8,7 +8,7 @@ It has been divided into challenges for:
 - Pages
 
 ### Live URL
-- Live Site URL: [Live Site](https://product-preview-card-git-main-muniruissah.vercel.app/)
+- Live Site URL: [Live Site](https://frontendmento-main.vercel.app/)
 
 ## My process
 
