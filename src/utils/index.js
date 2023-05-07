@@ -10,6 +10,7 @@ import threeColumnPreviewCard from '../images/designs/threeColumnPreviewCard.jpg
 import profileCardComponent from '../images/designs/profileCardComponent.png'
 import timeTrackingDashboard from '../images/designs/timeTrackingDashboard.jpg'
 import faqAccordionCard from '../images/designs/faqAccordionCard.jpg'
+import huddleLandingSingleIntroductory from '../images/designs/huddleLandingSingleIntroductory.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -99,5 +100,12 @@ export const pages=[
         description:"This is a solution to the Time Tracking Dashboard challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/time-tracking-dashboard',
         image:timeTrackingDashboard
+    },
+    {
+        title:'Huddle Landing Page with Single Introductory Section',
+        liveUrl:'huddle-landing-single-introductory',
+        description:"This is a solution to the Huddle Landing Page with Single Introductory Section challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/huddle-landing-single-introductory',
+        image:huddleLandingSingleIntroductory
     },
 ]

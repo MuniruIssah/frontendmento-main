@@ -38,3 +38,9 @@ import "@fontsource/kumbh-sans/700.css"
 import "@fontsource/rubik/300.css"
 import "@fontsource/rubik/400.css"
 import "@fontsource/rubik/500.css"
+
+
+import "@fontsource/poppins/400.css"
+import "@fontsource/poppins/600.css"
+
+import "@fontsource/open-sans"
