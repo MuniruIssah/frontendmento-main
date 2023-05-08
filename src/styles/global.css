@@ -299,10 +299,24 @@ svg {
     background-size: contain;
 }
 
+/*INTERACTIVE PRICING COMPONENT*/
+.interPricing{
+    font-family: "Manrope",sans-serif;
+    background-color: #FAFBFF;
+    background-image: url("../features/interactive-pricing-component/images/bg-pattern.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 600px) {
     .huddleLSI{
         background-image: url("../features/huddle-landing-single-introductory/images/bg-mobile.svg");
         background-repeat: no-repeat;
         background-size: contain;
     }
+
+    .interPricing{
+        background-size: 250%;
+    }
 }
+

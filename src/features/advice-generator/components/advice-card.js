@@ -26,7 +26,7 @@ const AdviceCard = () => {
                 <>
                     <div className={'flex flex-col space-y-6'}>
                         <span className={'text-[#52FFA8] text-xs md:text-sm tracking-[4px]'}>ADVICE # {slip.id}</span>
-                        <p className={'text-[#CEE3E9] text-2xl'}><q>{slip.advice}</q></p>
+                        <p className={'text-[#CEE3E9] text-2xl font-bold'}><q>{slip.advice}</q></p>
                     </div>
                     <img className={'object-fit hidden md:block'} src={divider} alt={'divider'} />
                     <img className={'object-fit md:hidden'} src={mobile_divider} alt={'mobile divider'} />

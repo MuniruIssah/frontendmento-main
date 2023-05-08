@@ -11,6 +11,7 @@ import profileCardComponent from '../images/designs/profileCardComponent.png'
 import timeTrackingDashboard from '../images/designs/timeTrackingDashboard.jpg'
 import faqAccordionCard from '../images/designs/faqAccordionCard.jpg'
 import huddleLandingSingleIntroductory from '../images/designs/huddleLandingSingleIntroductory.jpg'
+import interactivePricingComponent from '../images/designs/interactivePricingComponent.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -60,6 +61,13 @@ export const components=[
         description:"This is a solution to the FAQ Accordion Card challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/faq-accordion-card',
         image:faqAccordionCard
+    },
+    {
+        title:'Interactive Pricing Component',
+        liveUrl:'interactive-pricing-component',
+        description:"This is a solution to the nteractive Pricing Component challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/interactive-pricing-component',
+        image:interactivePricingComponent
     },
 
 ]
