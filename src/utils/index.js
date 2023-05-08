@@ -65,7 +65,7 @@ export const components=[
     {
         title:'Interactive Pricing Component',
         liveUrl:'interactive-pricing-component',
-        description:"This is a solution to the nteractive Pricing Component challenge on Frontend Mentor.",
+        description:"This is a solution to the Interactive Pricing Component challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/interactive-pricing-component',
         image:interactivePricingComponent
     },
