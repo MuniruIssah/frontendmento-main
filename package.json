@@ -17,9 +17,11 @@
   "dependencies": {
     "@fontsource/big-shoulders-display": "^4.5.11",
     "@fontsource/crete-round": "^4.5.9",
+    "@fontsource/dm-serif-display": "^4.5.10",
     "@fontsource/epilogue": "^4.5.11",
     "@fontsource/hanken-grotesk": "^4.5.2",
     "@fontsource/josefin-sans": "^4.5.12",
+    "@fontsource/karla": "^4.5.11",
     "@fontsource/kumbh-sans": "^4.5.12",
     "@fontsource/lexend-deca": "^4.5.14",
     "@fontsource/manrope": "^4.5.13",

@@ -45,3 +45,7 @@ import "@fontsource/poppins/400.css"
 import "@fontsource/poppins/600.css"
 
 import "@fontsource/open-sans"
+
+import "@fontsource/dm-serif-display"
+import "@fontsource/karla"
+import "@fontsource/karla/700.css"

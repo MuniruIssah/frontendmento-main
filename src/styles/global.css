@@ -320,3 +320,11 @@ svg {
     }
 }
 
+
+/*INSURE LANDING PAGE*/
+.insureLandingHeader{
+    font-family: "DM Serif Display", serif;
+}
+.insureLandingPage{
+    font-family: "Karla", sans-serif;
+}

@@ -12,6 +12,7 @@ import timeTrackingDashboard from '../images/designs/timeTrackingDashboard.jpg'
 import faqAccordionCard from '../images/designs/faqAccordionCard.jpg'
 import huddleLandingSingleIntroductory from '../images/designs/huddleLandingSingleIntroductory.jpg'
 import interactivePricingComponent from '../images/designs/interactivePricingComponent.jpg'
+import insureLandingPage from '../images/designs/insureLandingPage.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -115,5 +116,12 @@ export const pages=[
         description:"This is a solution to the Huddle Landing Page with Single Introductory Section challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/huddle-landing-single-introductory',
         image:huddleLandingSingleIntroductory
+    },
+    {
+        title:'Insure Landing Page',
+        liveUrl:'insure-landing-page',
+        description:"This is a solution to the Insure Landing Page challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/insure-landing-page',
+        image:insureLandingPage
     },
 ]

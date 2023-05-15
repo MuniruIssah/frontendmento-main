@@ -1,0 +1,39 @@
+.insureFindMore{
+    background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.insureFooter{
+    background-image: url("./images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 39vw;
+    background-position: left top;
+}
+
+.insureContentTop{
+    background-image: url("./images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+.insureMobileMenu{
+    background-image: url("./images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+@media screen and (max-width: 1023px) {
+    .insureFindMore{
+        background-image: url("./images/bg-pattern-how-we-work-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+    .insureFooter{
+        background-image: url("./images/bg-pattern-footer-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:top;
+    }
+}
