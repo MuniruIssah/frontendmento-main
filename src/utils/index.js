@@ -14,6 +14,7 @@ import huddleLandingSingleIntroductory from '../images/designs/huddleLandingSing
 import interactivePricingComponent from '../images/designs/interactivePricingComponent.jpg'
 import insureLandingPage from '../images/designs/insureLandingPage.jpg'
 import articlePreview from '../images/designs/articlePreview.jpg'
+import singlePriceGridComponent from '../images/designs/singlePriceGridComponent.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -77,6 +78,13 @@ export const components=[
         description:"This is a solution to the Article Preview Component challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/article-preview-component',
         image:articlePreview
+    },
+    {
+        title:'Single Price Grid Component',
+        liveUrl:'single-price-grid-component',
+        description:"This is a solution to the Single Price Grid Component challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/single-price-grid-component',
+        image:singlePriceGridComponent
     },
 
 ]
