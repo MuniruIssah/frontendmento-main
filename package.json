@@ -34,6 +34,7 @@
     "@fontsource/rubik": "^4.5.14",
     "@headlessui/react": "^1.7.14",
     "@radix-ui/react-accordion": "^1.1.1",
+    "@radix-ui/react-popover": "^1.0.5",
     "@radix-ui/react-progress": "^1.0.2",
     "@radix-ui/react-slider": "^1.1.1",
     "@radix-ui/react-switch": "^1.0.2",

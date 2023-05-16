@@ -13,6 +13,7 @@ import faqAccordionCard from '../images/designs/faqAccordionCard.jpg'
 import huddleLandingSingleIntroductory from '../images/designs/huddleLandingSingleIntroductory.jpg'
 import interactivePricingComponent from '../images/designs/interactivePricingComponent.jpg'
 import insureLandingPage from '../images/designs/insureLandingPage.jpg'
+import articlePreview from '../images/designs/articlePreview.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -69,6 +70,13 @@ export const components=[
         description:"This is a solution to the Interactive Pricing Component challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/interactive-pricing-component',
         image:interactivePricingComponent
+    },
+    {
+        title:'Article Preview Component',
+        liveUrl:'article-preview-component',
+        description:"This is a solution to the Article Preview Component challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/article-preview-component',
+        image:articlePreview
     },
 
 ]
