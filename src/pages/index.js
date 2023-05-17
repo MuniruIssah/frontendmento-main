@@ -10,7 +10,7 @@ export default function IndexPage() {
                Frontend Mentor Challenges
             </h1>
             <span className={'font-light'}>by <a href={'https://github.com/MuniruIssah'} target={'_blank'} rel="noreferrer">Issah Muniru</a></span>
-            <div className={'grid grid-cols-2 gap-12'}>
+            <div className={'grid md:grid-cols-2 gap-12'}>
                 <Link to={'/components'} className="mcards components">
                     <figure className="mcard">
                         <figcaption className="mcard_title">Components</figcaption>

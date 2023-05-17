@@ -9,7 +9,7 @@ const Index = () => {
         <div className={'w-full  max-w-screen-lg mx-auto text-left flex flex-col justify-start space-y-10'}>
             <div className={'w-full max-w-screen-lg mx-auto  text-left flex flex-col space-y-10'}>
                 <span className={'text-4xl'}>Components</span>
-                <div className={'grid gap-5'} style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(300px,1fr))"}}>
+                <div className={'grid gap-5'} style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(250px,1fr))"}}>
                     {components.map((item,index)=><Card key={index} {...item}/>)}
                 </div>
 
