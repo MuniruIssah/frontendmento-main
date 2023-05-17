@@ -15,6 +15,7 @@ import interactivePricingComponent from '../images/designs/interactivePricingCom
 import insureLandingPage from '../images/designs/insureLandingPage.jpg'
 import articlePreview from '../images/designs/articlePreview.jpg'
 import singlePriceGridComponent from '../images/designs/singlePriceGridComponent.jpg'
+import introWithSignupForm from '../images/designs/introWithSignupForm.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -139,5 +140,12 @@ export const pages=[
         description:"This is a solution to the Insure Landing Page challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/insure-landing-page',
         image:insureLandingPage
+    },
+    {
+        title:'Intro Component with Signup Form',
+        liveUrl:'intro-with-signup-form',
+        description:"This is a solution to the Intro with Signup Form challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/intro-with-signup-form',
+        image:introWithSignupForm
     },
 ]

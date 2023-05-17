@@ -339,3 +339,20 @@ svg {
 .singlePriceGridComponent{
     font-family: "Karla", sans-serif;
 }
+
+/*INTRO WITH SIGNUP FORM*/
+.introWithSignUpForm{
+    font-family: "Poppins",sans-serif;
+    background-color: #FF7A7A;
+    background-image: url("../features/intro-with-signup-form/images/bg-intro-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+    .introWithSignUpForm{
+        background-image: url("../features/intro-with-signup-form/images/bg-intro-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
