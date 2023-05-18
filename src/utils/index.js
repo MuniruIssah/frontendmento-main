@@ -17,6 +17,7 @@ import articlePreview from '../images/designs/articlePreview.jpg'
 import singlePriceGridComponent from '../images/designs/singlePriceGridComponent.jpg'
 import introWithSignupForm from '../images/designs/introWithSignupForm.jpg'
 import pingComingSoon from '../images/designs/pingComingSoon.jpg'
+import baseApparelComingSoon from '../images/designs/baseApparelComingSoon.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -155,5 +156,12 @@ export const pages=[
         description:"This is a solution to the Ping Coming Soon challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/ping-coming-soon',
         image:pingComingSoon
+    },
+    {
+        title:'Base Apparel Coming Soon',
+        liveUrl:'base-apparel-coming-soon',
+        description:"This is a solution to the Base Apparel Coming Soon challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/base-apparel-coming-soon',
+        image:baseApparelComingSoon
     },
 ]

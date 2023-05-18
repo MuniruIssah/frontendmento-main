@@ -361,3 +361,16 @@ svg {
 .pingComingSoon{
     font-family: "Libre Franklin", sans-serif;
 }
+
+/*BASE APPAREL COMING SOON*/
+.baseApparelComingSoon{
+    font-family: "Josefin Sans", sans-serif;
+    background:url("../features/base-apparel-coming-soon/images/bg-pattern-desktop.svg"), linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-size: contain;
+}
+
+@media screen and (max-width: 600px) {
+    .baseApparelComingSoon{
+        background:linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    }
+}
