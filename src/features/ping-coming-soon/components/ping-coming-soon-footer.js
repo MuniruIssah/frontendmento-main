@@ -5,7 +5,7 @@ const PingComingSoonFooter = () => {
     return (
         <footer className={'flex flex-col items-center gap-5'}>
             <div className={'flex items-center gap-3'}>
-                <PingIconButton extraClasses={"p-[8.5px] h-full w-full"}><FaFacebookF/></PingIconButton>
+                <PingIconButton extraClasses={"p-[8.5px]"}><FaFacebookF/></PingIconButton>
                 <PingIconButton><FaTwitter/></PingIconButton>
                 <PingIconButton><FaInstagram/></PingIconButton>
             </div>
