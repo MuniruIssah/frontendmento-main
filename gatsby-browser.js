@@ -53,3 +53,7 @@ import "@fontsource/open-sans"
 import "@fontsource/dm-serif-display"
 import "@fontsource/karla"
 import "@fontsource/karla/700.css"
+
+import "@fontsource/libre-franklin/300.css"
+import "@fontsource/libre-franklin/600.css"
+import "@fontsource/libre-franklin/700.css"

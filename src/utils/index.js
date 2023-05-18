@@ -16,6 +16,7 @@ import insureLandingPage from '../images/designs/insureLandingPage.jpg'
 import articlePreview from '../images/designs/articlePreview.jpg'
 import singlePriceGridComponent from '../images/designs/singlePriceGridComponent.jpg'
 import introWithSignupForm from '../images/designs/introWithSignupForm.jpg'
+import pingComingSoon from '../images/designs/pingComingSoon.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -147,5 +148,12 @@ export const pages=[
         description:"This is a solution to the Intro with Signup Form challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/intro-with-signup-form',
         image:introWithSignupForm
+    },
+    {
+        title:'Ping Coming Soon',
+        liveUrl:'ping-coming-soon',
+        description:"This is a solution to the Ping Coming Soon challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/pages/ping-coming-soon',
+        image:pingComingSoon
     },
 ]
