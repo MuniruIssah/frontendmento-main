@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialProofCommentCard = ({image,name,title,description,extraClasses}) => {
     return (
-        <div className={`w-92 h-10/12 p-8 bg-[#502050] rounded-lg flex flex-col gap-6 ${extraClasses} hover:-translate-y-5 hover:self-start transition-all ease-in-out`}>
+        <div className={`w-92 h-10/12 p-8 bg-[#502050] rounded-lg flex flex-col gap-6 ${extraClasses}`}>
             <div className={'flex items-center gap-5'}>
                 <img src={image} alt="" className="w-10 rounded-full"/>
                 <div className={'flex flex-col'}>
