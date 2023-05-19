@@ -45,6 +45,7 @@ import "@fontsource/rubik/400.css"
 import "@fontsource/rubik/500.css"
 
 
+import "@fontsource/poppins/200.css"
 import "@fontsource/poppins/400.css"
 import "@fontsource/poppins/500.css"
 import "@fontsource/poppins/600.css"

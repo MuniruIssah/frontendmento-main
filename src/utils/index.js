@@ -18,6 +18,7 @@ import singlePriceGridComponent from '../images/designs/singlePriceGridComponent
 import introWithSignupForm from '../images/designs/introWithSignupForm.jpg'
 import pingComingSoon from '../images/designs/pingComingSoon.jpg'
 import baseApparelComingSoon from '../images/designs/baseApparelComingSoon.jpg'
+import fourCardFeatureSection from '../images/designs/fourCardFeatureSection.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -88,6 +89,13 @@ export const components=[
         description:"This is a solution to the Single Price Grid Component challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/single-price-grid-component',
         image:singlePriceGridComponent
+    },
+    {
+        title:'Four Card Feature Section',
+        liveUrl:'four-card-feature-section',
+        description:"This is a solution to the Four Card Feature Section challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/four-card-feature-section',
+        image:fourCardFeatureSection
     },
 
 ]

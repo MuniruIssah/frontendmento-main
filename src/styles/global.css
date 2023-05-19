@@ -374,3 +374,8 @@ svg {
         background:linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     }
 }
+
+/*FOUR CARD FEATURE SECTION*/
+.fourCardFeatureSection{
+    font-family: "Poppins",sans-serif;
+}
