@@ -379,3 +379,22 @@ svg {
 .fourCardFeatureSection{
     font-family: "Poppins",sans-serif;
 }
+
+/*SOCIAL PROOF SECTION*/
+.socialProofSection{
+    font-family: "League Spartan",sans-serif;
+    background-image: url("../features/social-proof-section/images/bg-pattern-top-desktop.svg"),url("../features/social-proof-section/images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 40vw,80vw;
+    background-position: top left, bottom right;
+}
+
+@media screen and (max-width: 600px) {
+    .socialProofSection{
+        font-family: "League Spartan",sans-serif;
+        background-image: url("../features/social-proof-section/images/bg-pattern-top-mobile.svg"),url("../features/social-proof-section/images/bg-pattern-bottom-mobile.svg");
+        background-repeat: no-repeat,no-repeat;
+        background-size: contain,contain;
+        background-position: top left, bottom right;
+    }
+}

@@ -60,3 +60,7 @@ import "@fontsource/karla/700.css"
 import "@fontsource/libre-franklin/300.css"
 import "@fontsource/libre-franklin/600.css"
 import "@fontsource/libre-franklin/700.css"
+
+import "@fontsource/league-spartan"
+import "@fontsource/league-spartan/500.css"
+import "@fontsource/league-spartan/700.css"

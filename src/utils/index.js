@@ -19,6 +19,7 @@ import introWithSignupForm from '../images/designs/introWithSignupForm.jpg'
 import pingComingSoon from '../images/designs/pingComingSoon.jpg'
 import baseApparelComingSoon from '../images/designs/baseApparelComingSoon.jpg'
 import fourCardFeatureSection from '../images/designs/fourCardFeatureSection.jpg'
+import socialProofSection from '../images/designs/socialProofSection.jpg'
 export const components=[
     {
         title:'Interactive Ratings Component',
@@ -96,6 +97,13 @@ export const components=[
         description:"This is a solution to the Four Card Feature Section challenge on Frontend Mentor.",
         sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/four-card-feature-section',
         image:fourCardFeatureSection
+    },
+    {
+        title:'Social Proof Section',
+        liveUrl:'social-proof-section',
+        description:"This is a solution to the Social Proof Section challenge on Frontend Mentor.",
+        sourceCodeUrl:'https://github.com/MuniruIssah/frontendmento-main/tree/main/src/pages/components/social-proof-section',
+        image:socialProofSection
     },
 
 ]
